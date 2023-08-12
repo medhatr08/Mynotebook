@@ -1,1 +1,25 @@
 /Backend/node_modules
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/mynotebook/node_modules
+/mynotebook/.pnp
+/mynotebook/.pnp.js
+
+# testing
+/mynotebook/coverage
+
+# production
+/mynotebook/build
+
+# misc
+/mynotebook/.DS_Store
+/mynotebook/.env.local
+/mynotebook/.env.development.local
+/mynotebook/.env.test.local
+/mynotebook/.env.production.local
+
+/mynotebook/npm-debug.log*
+/mynotebook/yarn-debug.log*
+/mynotebook/yarn-error.log*
